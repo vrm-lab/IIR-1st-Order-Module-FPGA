@@ -128,5 +128,6 @@ The repository may be updated in the future if a new major revision is released.
 
 ## License
 
-MIT License
+Licensed under MIT. Provided as-is, without warranty.
+
 

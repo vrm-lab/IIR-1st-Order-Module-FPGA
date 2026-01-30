@@ -21,7 +21,7 @@ Focus: **clean architecture, reproducible design, and hardware–software co-des
 ---
 
 ## Architecture Overview
-
+```
     +--------------------+
     | ARM (Bare-metal)   |
     |  - AXI DMA         |
@@ -34,7 +34,7 @@ Focus: **clean architecture, reproducible design, and hardware–software co-des
     |  - IIR Core (L/R)  |
     |  - AXI-Stream OUT  |
     +--------------------+
-
+```
 - Left and Right channels are processed **in lockstep**
 - Coefficients are **shared** between channels
 - No multiband or dynamic reconfiguration (intentional, reference scope)
@@ -145,6 +145,7 @@ The repository may be updated in the future if a new major revision is released.
 ## License
 
 Licensed under MIT. Provided as-is, without warranty.
+
 
 
 

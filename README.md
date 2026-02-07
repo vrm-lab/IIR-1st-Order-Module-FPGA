@@ -1,4 +1,4 @@
-# Stereo 1st-Order IIR Filter (AXI-Stream) on FPGA
+# 1st-Order IIR Filter (AXI-Stream) on FPGA
 
 This repository provides a **reference design** of a stereo 16-bit first-order IIR filter
 implemented in **Verilog**, integrated with **AXI-Stream**, **AXI-Lite control**, and
@@ -147,6 +147,7 @@ The repository may be updated in the future if a new major revision is released.
 ## License
 
 Licensed under MIT. Provided as-is, without warranty.
+
 
 
 
